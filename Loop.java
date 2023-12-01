@@ -5,8 +5,9 @@ public class Loop
         int i = 1;
         while(i <= 10)
         {
-            System.out.println(i);
+            System.out.printf("%10s\n", i);
             i++;
         }
     }
+
 }
